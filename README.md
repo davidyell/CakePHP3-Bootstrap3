@@ -22,7 +22,8 @@ public $helpers = [
 ```
 
 #Gotchas
-* When using checkboxes, be sure to use the `echo $this->Form->input('field', ['type' => 'checkbox', 'label' => 'My field']);`
+* **Checkboxes:** be sure to use `$this->Form->input('field', ['type' => 'checkbox', 'label' => 'My field']);`
+* **Radios:** be sure to use `$this->Form->input('field', ['type' => 'radio', 'options' => $options]);`
 
 #Done
 That's it. Now when you look at the forms in your application they should all be styled like Twitter Bootstrap 3.
