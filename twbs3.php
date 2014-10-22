@@ -8,8 +8,8 @@
  */
 $config = [
 	'button' => '<button{{attrs}} class="btn btn-default">{{text}}</button>',
-	'checkbox' => '',
-	'checkboxFormGroup' => '<label><input type="checkbox" name="{{name}}" value="{{value}}"{{attrs}}> {{label}}</label>',
+	'checkbox' => '<input type="checkbox" name="{{name}}" value="{{value}}"{{attrs}}>',
+	'checkboxFormGroup' => '<label>{{input}} {{label}}</label>',
 	'checkboxWrapper' => '<div class="checkbox">{{input}}{{label}}</div>',
 	'dateWidget' => '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}{{meridian}}',
 	'error' => '<div class="error-message">{{content}}</div>',
@@ -31,8 +31,8 @@ $config = [
 	'optgroup' => '<optgroup label="{{label}}"{{attrs}}>{{content}}</optgroup>',
 	'select' => '<select class="form-control" name="{{name}}"{{attrs}}>{{content}}</select>',
 	'selectMultiple' => '<select class="form-control" name="{{name}}[]" multiple="multiple"{{attrs}}>{{content}}</select>',
-	'radio' => '',
-	'radioWrapper' => '<div class="radio"><label><input type="radio" name="{{name}}" value="{{value}}"{{attrs}}> {{label}}</label></div>',
+	'radio' => '<input type="radio" name="{{name}}" value="{{value}}"{{attrs}}>',
+	'radioWrapper' => '<div class="radio"><label>{{input}} {{label}}</label></div>',
 	'textarea' => '<textarea class="form-control" name="{{name}}"{{attrs}}>{{value}}</textarea>',
 	'submitContainer' => '<div class="submit">{{content}}</div>',
 ];
