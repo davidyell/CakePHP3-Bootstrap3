@@ -1,7 +1,10 @@
 CakePHP-Bootstrap3
 ==================
 
-A CakePHP 3 Form Helper template for use with Twitter Bootstrap 3.
+A CakePHP 3 Form Helper template for use with Twitter Bootstrap 3. This was built for the CakePHP 3 Beta 2. Updates in the Beta 3 means this might not give unexpected results until updated. See [/issues/1](https://github.com/davidyell/CakePHP3-Bootstrap3/issues/1)
+
+#Requirements
+* CakePHP 3 beta 2
 
 #Installation
 You need to put the `twbs3.php` file into your `config` folder. `config/twbs3.php`
