@@ -3,6 +3,11 @@ CakePHP-Bootstrap3
 
 A CakePHP 3 Form Helper template for use with Twitter Bootstrap 3. This was built for the CakePHP 3 Beta 2. Updates in the Beta 3 means this might not give unexpected results until updated. See [/issues/1](https://github.com/davidyell/CakePHP3-Bootstrap3/issues/1)
 
+**Deprecated**
+I've decided to disconinue development on this project for a number of reasons. The first is that the way helper templates works has changed and the second was that this approach isn't a complete solution for the implementation of Bootstrap into CakePHP3.
+
+Why not check out one of the existing projects? [https://github.com/Holt59/cakephp3-bootstrap3-helpers](https://github.com/Holt59/cakephp3-bootstrap3-helpers)
+
 #Requirements
 * CakePHP 3 beta 2
 
