@@ -22,7 +22,7 @@ $config = [
 	'formGroup' => '{{label}}{{input}}',
 	'hiddenblock' => '<div style="display:none;">{{content}}</div>',
 	'input' => '<input class="form-control" type="{{type}}" name="{{name}}"{{attrs}}>',
-	'inputsubmit' => '<input type="{{type}}"{{attrs}}>',
+	'inputSubmit' => '<input type="{{type}}"{{attrs}}>',
 	'inputContainer' => '<div class="form-group {{type}}{{required}}">{{content}}</div>',
 	'inputContainerError' => '<div class="form-group {{type}}{{required}} has-error">{{content}}{{error}}</div>',
 	'label' => '{{text}}',
