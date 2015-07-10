@@ -1,6 +1,10 @@
 CakePHP-Bootstrap3
 ==================
 
+**DEPRECATED**  
+This repository has been deprecated. No further development is taking place.
+I would recommend using this plugin instead. [https://github.com/FriendsOfCake/bootstrap-ui](https://github.com/FriendsOfCake/bootstrap-ui)
+
 A CakePHP 3 Form Helper template for use with Twitter Bootstrap 3. This was built for the CakePHP 3 Beta 2. Updates in the Beta 3 means this might not give unexpected results until updated. See [/issues/1](https://github.com/davidyell/CakePHP3-Bootstrap3/issues/1)
 
 **Deprecated**  
